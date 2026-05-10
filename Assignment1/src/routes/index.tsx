@@ -12,7 +12,7 @@ function RouteComponent() {
                 <h2 className="text-4xl font-bold text-slate-800 mb-4">Home Page</h2>
 
                 <p className="text-slate-600 leading-7 text-lg">
-                    Welcome to the Home Page! This is where you can find the latest updates and news about our website. We are committed to providing you with the best experience possible, so feel free to explore and let us know if you have any feedback or suggestions.
+                    Welcome to the Home Page!
                 </p>
             </div>
         </section>
