@@ -19,16 +19,25 @@ export function Playground() {
                 role="Junior Developer"
             />
 
-            <Card title="User Profile">
+            <Card title="Card (User Profile)">
                 <div className="flex items-center gap-4 p-6 bg-white rounded-xl shadow-sm border border-gray-100 max-w-sm">
                     <Avatar imageUrl="https://randomuser.me/api/portraits/men/1.jpg" altText="Arghya's avatar" size="lg" />
                     <div>
-                        <h2 className="text-xl font-extrabold text-gray-900">{name}</h2>
+                        <h2 className="text-xl font-extrabold text-gray-900">Arghya Saha</h2>
                         <div className="mt-2">
                             <Badge role="Developer" isAdmin={false} />
                         </div>
                     </div>
                 </div>
+            </Card>
+
+            <Card title="Card (User Profile)">
+                <UserProfile
+                    name="Arghya Saha"
+                    imageUrl="https://randomuser.me/api/portraits/men/1.jpg"
+                    role="Developer"
+                    isAdmin={true}
+                />
             </Card>
 
             <Card title="System Status">
