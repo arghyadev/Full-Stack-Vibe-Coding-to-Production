@@ -1,7 +1,3 @@
-// Create a <Tag text="React" /> component that renders a small colored pill.
-
-import React from 'react'
-
 interface TagProps {
     label: string
     color: string
